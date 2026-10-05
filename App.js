@@ -297,9 +297,7 @@ const date = new Date();
 header_date.textContent =
   date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear();
 
-// ==========================================
 // EXPENSE OBJECT
-// ==========================================
 
 function InputObj(description, category, amount, date_input) {
   return {
